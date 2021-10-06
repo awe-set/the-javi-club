@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./schema/out/introdh_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mathilda</title>
+                <author xml:id="">Mary Shelley</author>
+                <editor xml:id="">Javier Rosario</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>unpublished test document</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Scan</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1"/>
+           <opener> Chap. 1
+            Florence. nov 9th. 1819</opener>
+                <p>It is only four o'clock; but it is winter
+                and the sun has already set. There are no
+                clouds in the clear, frosty sky to <unclear>reflect</unclear> its
+                giant beams, but the air itself is tinged with a
+                slight <unclear>wreate</unclear> colour which is again reflected on
+                the snow that covers the groud. I live in 
+                a lone cottage on <add>a</add> solitary, wide heath: no
+                voice of life reaches me. I see the desolate plain
+                covered with white, save a few black patches
+                that the noonday sun has made at the top
+                of those sharp pointed hillocks <del>on</del> <add>from</add> which
+                the snow, shiny as it fell, by thinner
+                than on the plain ground: a few birds
+                are pecking at the hard ice that covers the pools—
+                for the frost has been of long continuance</p>
+                
+                <p>I am in a <del>mathilda</del> strange state of mind.
+                I am alone—quite alone—in the world<unclear>.</unclear> The blight
+                of misfortune has <unclear>hovered</unclear> over me and withered me.
+                I know that I am about to die and <del>yet</del> I feel
+                happy—joyious—I feel.—. I feel my pulse; its beats fast:
+                I place my thin hand on my cheek; it burns: there
+                is a slight, quick <unclear>spirit</unclear> within one which is now
+                emitting its last sparks. I shall never see the snows
+                of another winter—I do believe that I shall
+                <del>v</del> never again feel the <del>urging</del> warmth of
+                another summer sun; and it is <unclear>on</unclear> this per-
+                <unclear>onasion</unclear>that I begin to write my tragic history.
+                Perhaps a history such as mine had better
+                die with me, but a<del>n</del> feeling that I cannot
+                define leads me on and I am too weak both in
+                body and mind to resist <del>ang</del> the slightest <unclear>mmgdre</unclear>
+                <unclear>while</unclear> life was strong within me thought indeed
+                that there was a sacred horror in my tale that
+                rendered it unfit for utterance, and now about
+                to die I pollute its mystic terrors. It is as the
+                wood of the <unclear>Eumenides</unclear> none but the dying may
+                enter and <unclear>corpus</unclear> is about to lie.</p>
+            
+                <p>What am I writing :— I must collect my thoughts.
+                I do not know that any will peruse these pages
+                except you, my friend, who will recieve them at my
+                death. I do not <unclear>addep</unclear> them to you alone because it will
+                give me pleasure to open <unclear>wpon vrea uoae guenavin in a wal</unclear>
+                that would be needless if you alone read what I shall
+                write. I shall relate my love therefore as if <del>it were</del> I
+                wrote for strangers. You have often asked me the
+                course of my solitary life; my tears; and above all of my
+                impenetrableand <del>unaffected</del> unkind silence. In life I
+                dared not; <del>I</del> in death I unveil the mystery. Others
+                will top these pages highly over: to you, Woodville,
+                kind, affectionate friend, they will be dear—the
+                precious memorals of a heart-broken girl who,
+                dying, is still wounded by gratitude towards you.
+                Your tears will fall on the words that <unclear>record</unclear> my
+                misfortunes; I know they will—and while I have
+                life thank you for your sympathy.</p>
+        </body>
+    </text>
+</TEI>
