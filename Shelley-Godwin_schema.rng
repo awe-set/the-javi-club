@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0"
+    xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+    datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <start>
+        <ref name="element.collection"/>
+    </start>
+
+    <define name="element.collection">
+        <element name="collection">
+            <oneOrMore>
+                <ref name="element.work"/>
+            </oneOrMore>
+        </element>
+    </define>
+
+    <define name="element.work">
+        <element name="work">
+            <attribute name="genre">
+                <choice>
+                    <value>poetry</value>
+                    <value>prose</value>
+                </choice>
+            </attribute>
+            <ref name="element.title"/>
+            <zeroOrMore>
+                <ref name="element.author"/>
+            </zeroOrMore>
+            <oneOrMore>
+                <ref name="element.segment"/>
+            </oneOrMore>
+        </element>
+    </define>
+
+    <define name="element.title">
+        <element name="title">
+            <text/>
+        </element>
+    </define>
+
+    <define name="element.author">
+        <element name="author">
+            <attribute name="name">
+                <text/>
+            </attribute>
+        </element>
+    </define>
+
+    <define name="element.segment">
+        <element name="segment">
+            <attribute name="number">
+                <text/>
+            </attribute>
+            <oneOrMore>
+                <ref name="element.body"/>
+            </oneOrMore>
+        </element>
+    </define>
+
+    <define name="element.body">
+        <element name="body">
+            <attribute name="type">
+                <choice>
+                    <value>stanza</value>
+                    <value>paragraph</value>
+                </choice>
+            </attribute>
+            <oneOrMore>
+                <ref name="element.line"/>
+            </oneOrMore>
+        </element>
+    </define>
+
+    <define name="element.line">
+        <element name="line">
+            <oneOrMore>
+                <choice>
+                    <element name="word">
+                        <attribute name="mod">
+                            <choice>
+                                <value>add</value>
+                                <value>del</value>
+                                <value>?</value>
+                                <value>un</value>
+                                <value>add+del</value>
+                            </choice>
+                        </attribute>
+                        <text/>
+                    </element>
+                    <text/>
+                </choice>
+            </oneOrMore>
+        </element>
+    </define>
+</grammar>

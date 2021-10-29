@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/Users/javi/Documents/GitHub/the-javi-club/Shelley-Godwin_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<collection>
+    <work genre="poetry">
+        <title>Misery.—A Fragment</title>
+        <author name="Percy Bysshe Shelley"/>
+        <segment number="1">
+            <body type="stanza">
+                <line>Come, be happy, sit near by me</line>
+                <line>Shadow vested <word mod="del">m</word>
+                    <word mod="add">M</word> isery</line>
+                <line>Coy unwilling silent bride</line>
+                <line>Mourning in thy robe of pride,</line>
+                <line>Desolation deified—</line>
+            </body>
+            <body type="stanza">
+                <line>Come be happy— sit near me</line>
+                <line>Sad as I may seem to thee</line>
+                <line>I am merrier yet than thou—</line>
+                <line><word mod="del">W</word>
+                    <word mod="add">L</word> ady, whose imperial brow</line>
+                <line>Is endiademed with woe—</line>
+            </body>
+            <body type="stanza">
+                <line>Misery! we have known each other</line>
+                <line><word mod="del">S</word>
+                    <word mod="add">L</word> ike a sister &amp; a brother</line>
+                <line>Living in the same <word mod="del">dre</word> lone home</line>
+                <line>Many years—we must live some</line>
+                <line>Hours or ages yet to come—</line>
+            </body>
+            <body type="stanza">
+                <line>Tis an evil lot, &amp; yet</line>
+                <line>Let us make the best of it</line>
+                <line>If love lives when pleasure dies</line>
+                <line>We two will love, till in our eyes</line>
+                <line>This hearts hell seem Paradise</line>
+            </body>
+            <body type="stanza">
+                <line>Come be happy — lie thee down</line>
+                <line>On the fresh grass newly mown</line>
+                <line>While the grasshopper doth sing</line>
+                <line>Merrily—one joyous thing</line>
+                <line>In a world of sorrowing</line>
+            </body>
+            <body type="stanza">
+                <line>There our tent shall be the willow</line>
+                <line>And mine arm shall be thy pillow</line>
+                <line>Sounds &amp; odours, sorrowful</line>
+                <line>Because they once were sweet, shall <word mod="add">lull</word> Us</line>
+            </body>
+            <body type="stanza">
+                <line>Ha! <word mod="del">fr o</word> thy frozen pulses flutter</line>
+                <line>With a love thou dare'st not utter—</line>
+                <line>Thou art murmuring—thou art weeping—</line>
+                <line>is Was thine icy <word mod="del">bosom then</word>
+                    <word mod="add">bosom leaping</word></line>
+                <line>While my burning heart was sleeping?</line>
+            </body>
+            <body type="stanza">
+                <line>
+                    <word mod="del">Kiss me — oh thy lips are cold—</word>
+                </line>
+                <line>
+                    <word mod="del">Round my neck thine arms enfold</word>
+                    <word mod="add+del">dead</word>
+                </line>
+                <line>
+                    <word mod="del">They are soft—but dead chill &amp; weak</word>
+                    <word mod="add+del">weak</word>
+                </line>
+                <line>
+                    <word mod="del">And thy tears upon my cheek head</word>
+                </line>
+                <line>
+                    <word mod="del">Burn, as it were with frost—o speak</word>
+                </line>
+            </body>
+            <body type="stanza">
+                <line>Kiss me ;—oh thy lips are cold—</line>
+                <line>Round my neck thine arms enfold—</line>
+                <line>They are soft—but chill &amp; dead</line>
+                <line>And thy tears upon my head</line>
+                <line>Burn like points of frozen lead</line>
+            </body>
+            <body type="stanza">
+                <line>Hasten to the bridal bed</line>
+                <line>Underneath the grave tis spread</line>
+                <line>In darkness may our love be hid—</line>
+                <line>Oblivion is our coverlid—</line>
+                <line>W<word mod="un">e m</word>ay rest, &amp; none forbid—</line>
+            </body>
+            <body type="stanza">
+                <line>Clasp me, till our hearts be grown</line>
+                <line>Like two lovers', into one</line>
+                <line>Till this dreadful transport may</line>
+                <line>Like a vapour, fade away</line>
+                <line><word mod="un">In</word> the sleep which lasts alway</line>
+            </body>
+            <body type="stanza">
+                <line>We may dream in that long sleep</line>
+                <line>That we are not those who weep;</line>
+                <line>Even as pleasure dreams of thee</line>
+                <line>Life-deserting Misery</line>
+                <line>Thou mayest dream of her with me</line>
+            </body>
+            <body type="stanza">
+                <line>Let us laugh &amp; make our mirth</line>
+                <line>At all shadows on the Earth</line>
+                <line>As dogs bay the moonlight clouds</line>
+                <line>Which, like spectres wrapt in shrouds</line>
+                <line>Pass oer night in multitudes</line>
+            </body>
+            <body type="stanza">
+                <line>A</line>
+                <line>All the wide world beside us</line>
+                <line> Are like multitudinous</line>
+                <line> Shadows passing from a scene—</line>
+                <line>What but mockery can they mean</line>
+                <line>Where <word mod="del">tThou</word> I am, where Thou has been</line>
+            </body>
+        </segment>
+    </work>
+    <work genre="prose">
+        <title>Mathilda</title>
+        <author name="Mary Wollstonecraft Shelley"/>
+        <segment number="1">
+            <body type="paragraph">
+                <line>Florence. Nov 9th 1819</line>
+                <line> It is only four o’clock; but it is winter</line>
+                <line>and the sun has already set: there are no</line>
+                <line>clouds in the clear, frosty sky to reflect its</line>
+                <line>slant beams, but the air itself is tinged with a</line>
+                <line>slight roseate colour which is again reflected on</line>
+                <line>the snow that covers the ground. I live in</line>
+                <line>a lone cottage on <word mod="add">a</word> solitary, wide heath: no</line>
+                <line>voice of life reaches me. I see the desolate plain</line>
+                <line>covered with white, save a few black patches</line>
+                <line>that the noonday sun has made at the top</line>
+                <line>of those sharp pointed hillocks <word mod="del">on</word>
+                    <word mod="add">from</word> which</line>
+                <line>the snow, sliding as it fell, lay thinner</line>
+                <line>than on the plain ground: a few birds</line>
+                <line>are pecking at the hard ice that covers the pools—</line>
+                <line>for the frost has been of long continuance</line>
+            </body>
+            <body type="paragraph">
+                <line>I am in a <word mod="del">Mathilda</word> strange state of mind.</line>
+                <line>I am alone – quite alone – in the world – the blight</line>
+                <line>of misfortune has passed over me and withered me;</line>
+                <line>I know that I am about to die and <word mod="del">yet</word> I feel</line>
+                <line>happy–joyous.–. I feel my pulse; its beats fast:</line>
+                <line>I place my thin hand on my cheek; it burns: there</line>
+                <line>is a slight, quick spirit within me which is now</line>
+                <line>emitting its last sparks. I shall never see the snows</line>
+                <line>of a nother winter – I do believe that I shall</line>
+                <line><word mod="del">v</word> never again feel the vivifying warmth of</line>
+                <line>another summer sun; and it is in this per-</line>
+                <line>suasion that I begin to write my tragic history.</line>
+                <line>Perhaps a history such as mine had better</line>
+                <line>die with me, but a<word mod="del">n impulse</word>
+                    <word mod="add">feeling that</word> I cannot</line>
+                <line>define leads me on and I am too weak both in</line>
+                <line>body and mind to resist any the slightest impulse.</line>
+                <line>While life was strong within me I thought indeed</line>
+                <line>that there was a sacred horror in my tale that</line>
+                <line>rendered it unfit for utterance, and now about</line>
+                <line>to die I pollute its mystic terrors. It is as the</line>
+                <line>wood of the Eumenides none but the dying may</line>
+                <line>enter; and Oedipus is about to die.</line>
+            </body>
+            <body type="paragraph">
+                <line>What am I writing? – I must collect my thoughts.</line>
+                <line>I do not know that any will peruse these pages</line>
+                <line>except you, my friend, who will receive them at my</line>
+                <line>death. I do not address them to you alone because it will</line>
+                <line>give me pleasure to dwell upon our friendship in a way</line>
+                <line>that would be needless if you alone read what I shall</line>
+                <line>write. I shall relate my tale therefore as if <word mod="del">it were</word>
+                    I</line>
+                <line>wrote for strangers. You have often asked me the</line>
+                <line>cause of my solitary life; my tears; and above all of my</line>
+                <line>impenetrable and <word mod="del">unaffecte</word> unkind silence. In life
+                    I</line>
+                <line>dared not; I in death I unveil the mystery. Others</line>
+                <line>will toss these pages lightly over: to you, Woodville,</line>
+                <line>kind, affectionate friend, they will be dear – the</line>
+                <line>precious memorials of a heart-broken girl who,</line>
+                <line>dying, is still warmed by gratitude towards you:</line>
+                <line>your tears will fall on the words that record my</line>
+                <line>misfortunes; I know they will – and while I have</line>
+                <line>life I thank you for your sympathy.</line>
+            </body>
+            <body type="paragraph">
+                <line>But enough of this: I will begin my tale: <word mod="del">I</word>it is</line>
+                <line>my last task, and I hope I <word mod="del">shall</word> have strength</line>
+                <line>sufficient to fulfill it. I record no crimes; my faults</line>
+                <line>may easily be pardoned; for they proceeded not from evil</line>
+                <line>motive but from want of judgement; and I believe</line>
+                <line>few would say that they could, by a different conduct</line>
+                <line>and superior wisdom, have avoided the misfor</line>
+                <line>tunes to which I am the victim. My fate has</line>
+                <line>been governed by necessity, a hideous necessity.</line>
+                <line>It required hands stronger than mine; stronger,</line>
+                <line>I do believe than any human force to break</line>
+                <line>the thick, adamantine chain that has bound</line>
+                <line>me, once breathing nothing but joy, ever possess</line>
+                <line>ed <word mod="del">by</word> by a warm love &amp; delight in
+                    goodness,–to</line>
+                <line>misery only to be ended, and now about to</line>
+                <line>be ended, in death. But I forget myself, my</line>
+                <line>tale is yet untold. I will pause a few moments,</line>
+                <line>wipe my dim eyes, and <word mod="del">to b</word> endeavour to</line>
+                <line>lose the present obscure but heavy feeling</line>
+                <line>of unhappiness in the <word mod="del">em</word> more acute emo</line>
+                <line>tions of the past.</line>
+            </body>
+        </segment>
+    </work>
+</collection>
